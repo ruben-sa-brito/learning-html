@@ -1,4 +1,7 @@
 @charset " UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Paprika&display=swap');
+
 *{
     font-family: Arial, Helvetica, sans-sarif;
     /*height:100%; */
@@ -22,11 +25,13 @@ main{
 }
 
 h1{
+    font-family: 'Paprika', Arial, Helvetica, sans-sarif;
     color: #732240;
     text-align: center;
     text-shadow: 1px 1px 1px #3d1222;
 }
 
 h2{
-    color:#F277A4;
+    font-family: 'Paprika', Arial, Helvetica, sans-sarif;
+    color: #F277A4;
 }
