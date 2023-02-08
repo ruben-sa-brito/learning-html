@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+body {
+    display: grid;
+    margin: 0px;
+}
+
+header {
+    
+    background-image: linear-gradient(to bottom, #3fc271, #175722);
+    padding: 10px;
+
+}
+
+header > h1, p {
+    text-align: center;
+}
+
