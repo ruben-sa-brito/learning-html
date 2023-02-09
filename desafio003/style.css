@@ -1,18 +1,73 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: "coolvetica";
+    src: url("fonts/coolvetica condensed rg.otf") format("truetype");
+  }
+
+@font-face {
+    font-family: "android";
+    src: url("fonts/idroid.otf") format("truetype");
+  }  
+  
+
 body {
+    font-family: coolvetica, Arial, Helvetica, sans-serif;
     display: grid;
     margin: 0px;
+    font-size: 20px;
+    background-color: antiquewhite;
+}
+
+
+nav > a{
+
+    color: white;
+    margin: 20px;
+    padding: 8px;
+    text-decoration: none;
+
+}
+
+nav > a:hover{
+    
+    background-color: #59e03e;
+    border-radius: 15px;
 }
 
 header {
     
     background-image: linear-gradient(to bottom, #3fc271, #175722);
     padding: 10px;
+    margin: 0px;
 
 }
 
 header > h1, p {
     text-align: center;
+    
+    
 }
+
+#geral {
+    width: 70%;
+    height: 800px;
+    padding: 20px;
+    margin: auto;
+    background-color: white;
+    text-align: center;
+}
+
+#geral> h1 {
+    margin: 0px;
+    font-family: android, Arial, Helvetica, sans-serif;
+    text-align: left;
+}    
+/*
+main > h1 {
+    font-family: android, Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+}
+*/
 
