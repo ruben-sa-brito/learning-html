@@ -13,8 +13,8 @@
 
 
 body {
+    
     font-family: roboto, Arial, Helvetica, sans-serif;
-    display: grid;
     margin: 0px;
     font-size: 20px;
     background-color: antiquewhite;
@@ -39,7 +39,7 @@ nav > a:hover{
 }
 
 header {
-    
+    width: 100%;
     background-image: linear-gradient(to bottom, #3fc271, #175722);
     height: 150px;
     padding: 10px;
@@ -66,12 +66,19 @@ header > p {
 
 #geral {
     width: 70%;
-    height: 800px;
+    height: 2000px;
     padding: 20px;
     margin: auto;
     background-color: white;
     text-align: center;
+    box-shadow: 1px 2px 3px rgba(95, 94, 94, 0.781);
 }
+@media  (max-width: 750px) {
+    #geral {
+      width: 90%;
+    }
+
+  }
 
 #geral> h1 {
     margin: 0px;
@@ -86,7 +93,7 @@ header > p {
     text-indent: 15px;
     font-family: android, Arial, Helvetica, sans-serif;
     text-align: left;
-    color: #175722;
+    color: #185922;
 } 
 
 #geral > p {
@@ -94,11 +101,12 @@ header > p {
     text-indent: 70px;
     text-align: justify;
 }
-/*
-main > h1 {
-    font-family: android, Arial, Helvetica, sans-serif;
-    text-align: center;
-    
+
+#geral > p > a {
+    color: #185922;
+    text-decoration: none;
 }
-*/
+
+
+
 
