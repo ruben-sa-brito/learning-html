@@ -64,10 +64,12 @@ header {
 header > h1, p {
     text-align: center;
     color: white;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.781);
     
 }
 header >  p {
-    font-size: 11px;
+    font-size: 13px;
+   
     
 }
 
