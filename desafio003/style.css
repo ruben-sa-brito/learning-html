@@ -39,6 +39,8 @@ nav > a{
     margin: 10px;
     padding: 8px;
     text-decoration: none;
+    font-weight: bold;
+    
     
 
 }
@@ -48,6 +50,7 @@ nav > a:hover{
     background-color: #59e03e;
     border-radius: 15px;
     color: black;
+    transition-duration: 200ms;
     
 }
 
@@ -64,7 +67,7 @@ header {
 header > h1, p {
     text-align: center;
     color: white;
-    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.781);
+    
     
 }
 header >  p {
@@ -204,20 +207,17 @@ li {
 
 
 
-.list-container {
-    display: flex;
+aside {
     text-align: left;
     
-  }
+}
+
+aside > ul {
+
+    columns: 2;
+
+}  
   
-.list-left {
-    flex: 1;
-    margin-right: 20px;
-  }
-  
-.list-right {
-    flex: 1;
-  }
 
 .list {
     background-color: #71d397;
